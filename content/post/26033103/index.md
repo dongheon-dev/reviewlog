@@ -1,6 +1,6 @@
 +++
 date = '2026-03-31T15:26:17+09:00'
-draft = true
+draft = false
 title = '루시퍼 리뷰'
 tags = ['넷플릭스', '루시퍼', '수사물', '판타지']
 categories = ['ott']
