@@ -11,3 +11,21 @@ theme = "stack"
   
 [params.sidebar]
   subtitle = "review"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params.widgets]
+
+[[params.widgets.homepage]]
+  type = "search"
+
+[[params.widgets.homepage]]
+  type = "archives"
+
+[[params.widgets.homepage]]
+  type = "categories"
+
+[[params.widgets.homepage]]
+  type = "tag-cloud"
