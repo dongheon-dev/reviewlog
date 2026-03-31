@@ -19,7 +19,7 @@ categories = ['여행']
 
 한똥이랑 만났다. 갈 곳도 하고싶은 것도 없어서 멍한 나를 위해 데려간 곳.
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\1.jpg)
+![](./1.jpg)
 
 여러 공방도 있고, 볼거리가 있다고 들었다고 해서 갔는데...
 
@@ -27,17 +27,17 @@ categories = ['여행']
 
 
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\2.jpg)
+![](./2.jpg)
 
 인도와 차도를 구분하기 위해 만들어 놓은 듯한 파이프. 안에 꽃을 심어놓았더니 엄청 이뻤다.
 
 
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\3.jpg)
+![](./3.jpg)
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\4.jpg)
+![](./4.jpg)
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\5.jpg)
+![](./5.jpg)
 
 골목 골목 다니다보니, 좁은 골목에 이렇게 인형? 오브제를 담장에 놔둔 곳도 찾을 수 있었다.
 
@@ -45,7 +45,7 @@ categories = ['여행']
 
 
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\6.jpg)
+![](./6.jpg)
 
 한똥이 바이크 사고싶다고 해서, 절대 안된다고 말렸다.
 

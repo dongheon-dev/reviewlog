@@ -29,3 +29,6 @@ theme = "stack"
 
 [[params.widgets.homepage]]
   type = "tag-cloud"
+
+[markup.goldmark.renderer]
+  unsafe = true
