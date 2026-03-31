@@ -1,6 +1,6 @@
 +++
 date = '2026-03-31T13:35:26+09:00'
-draft = true
+draft =  false
 title = '첫번째 블로깅'
 tags = ['blog']
 categories = ['study']
