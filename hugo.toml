@@ -1,0 +1,13 @@
+baseURL = "https://dongheon-dev.github.io/reviewlog/"
+languageCode = "ko-kr"
+title = "Re:View,Log"
+theme = "stack"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  mainSections = ["post"]
+  
+[params.sidebar]
+  subtitle = "review"
