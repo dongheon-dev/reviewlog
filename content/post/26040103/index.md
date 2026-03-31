@@ -1,0 +1,62 @@
++++
+date = '2026-04-01T08:02:47+09:00'
+draft = false
+title = '행리단길 리뷰'
+tags = ['친구', '산책', '한똥']
+categories = ['여행']
+
++++
+
+
+
+### 별점 : ★★☆☆☆
+
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.414552767098!2d127.0127544!3d37.2853077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b43bf43f4bedd%3A0x4bafa109f6109b41!2z7ZaJ66as64uo6ri4!5e0!3m2!1sko!2skr!4v1774998936924!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+한똥이랑 만났다. 갈 곳도 하고싶은 것도 없어서 멍한 나를 위해 데려간 곳.
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\1.jpg)
+
+여러 공방도 있고, 볼거리가 있다고 들었다고 해서 갔는데...
+
+공방 몇개가 있긴 했지만 닫혀있었고, 4컷사진 찍는 곳과 음식점 뿐. 아, 아기자기한 소품 파는 곳도 있었다.
+
+
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\2.jpg)
+
+인도와 차도를 구분하기 위해 만들어 놓은 듯한 파이프. 안에 꽃을 심어놓았더니 엄청 이뻤다.
+
+
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\3.jpg)
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\4.jpg)
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\5.jpg)
+
+골목 골목 다니다보니, 좁은 골목에 이렇게 인형? 오브제를 담장에 놔둔 곳도 찾을 수 있었다.
+
+사진 찍기 좋은데?
+
+
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040103\6.jpg)
+
+한똥이 바이크 사고싶다고 해서, 절대 안된다고 말렸다.
+
+근데 이쁘긴 하더라. 카페 앞 바이크.
+
+
+
+
+
+**"볼 거 별로 없음."**
+
+주차장은 좁았고, 커플들은 많았다. 볼 건 없었다.
+
+나중에 만일 여자친구가 생긴다 하더라도 여기는 데려오고 싶지 않은 곳.

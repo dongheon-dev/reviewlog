@@ -10,7 +10,7 @@ theme = "stack"
   mainSections = ["post"]
   
 [params.sidebar]
-  subtitle = "review"
+  subtitle = "re view, review, log"
 
 [taxonomies]
   category = "categories"
