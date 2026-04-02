@@ -77,6 +77,18 @@ theme = "stack"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[[params.widgets.page]]
+  type = "search"
+
+[[params.widgets.page]]
+  type = "archives"
+
+[[params.widgets.page]]
+  type = "categories"
+
+[[params.widgets.page]]
+  type = "tag-cloud"
 ```
 
 ```bash
