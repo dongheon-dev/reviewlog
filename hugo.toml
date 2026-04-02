@@ -44,3 +44,12 @@ theme = "stack"
 
 [[params.widgets.page]]
   type = "tag-cloud"
+
+[params.comments]
+  enabled = true
+  provider = "utterances"
+
+[params.comments.utterances]
+  repo = "dongheon-dev/reviewlog-comments"
+  issueTerm = "pathname"
+  theme = "github-dark"

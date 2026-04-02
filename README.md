@@ -2,6 +2,10 @@
 
 
 
+## https://dongheon-dev.github.io/reviewlog/
+
+
+
 #### 1. git install
 
 [git homepage](https://git-scm.com/)
@@ -77,18 +81,6 @@ theme = "stack"
 
 [markup.goldmark.renderer]
   unsafe = true
-
-[[params.widgets.page]]
-  type = "search"
-
-[[params.widgets.page]]
-  type = "archives"
-
-[[params.widgets.page]]
-  type = "categories"
-
-[[params.widgets.page]]
-  type = "tag-cloud"
 ```
 
 ```bash
@@ -226,9 +218,7 @@ git push
 
 
 
-
-
-#### 7. 자동화
+#### 7. automation
 
 *post.bat*
 
@@ -260,12 +250,40 @@ git push
 
 
 
+#### 8. comments
+
+github new repository : reviewlog-comments
 
 
-```bash
-# post.bat은 내 계정 아래, gitpush.bat은 reviewlog 폴더 아래 넣어두기!
-post 제목
-# 실행된 typora에 메시지 작성
-gitpush 메시지
+
+https://github.com/apps/utterances -> install
+
+
+
+[utterances](https://utteranc.es/) -> repo : `dongheon-dev/reviewlog-comments` 
+
+
+
+hugo.toml에 추가
+
+```toml
+[params.comments]
+  enabled = true
+  provider = "utterances"
+
+[params.comments.utterances]
+  repo = "dongheon-dev/reviewlog-comments"
+  issueTerm = "pathname"
+  theme = "github-dark"
 ```
+
+
+
+
+
+
+
+
+
+
 
