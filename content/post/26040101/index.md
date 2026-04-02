@@ -2,8 +2,8 @@
 date = '2026-04-01T07:13:40+09:00'
 draft = false
 title = '사흘 리뷰'
-tags = ['오컬트', '호러', '졸작']
-categories = ['ott']
+tags = ['넷플릭스', '오컬트', '호러']
+categories = ['영화']
 
 +++
 

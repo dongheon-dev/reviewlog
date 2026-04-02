@@ -1,9 +1,9 @@
 +++
 date = '2026-03-31T13:46:22+09:00'
 draft = false
-title = '최근 과정 리뷰'
+title = '과정 리뷰'
 tags = ['강의', '과정']
-categories = ['study']
+categories = ['인생']
 
 +++
 

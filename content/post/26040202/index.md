@@ -2,8 +2,8 @@
 date = '2026-04-02T08:53:27+09:00'
 draft = false
 title = '손 the guest 리뷰'
-tags = ['호러', '오컬트']
-categories = ['ott']
+tags = ['티빙', '호러', '오컬트']
+categories = ['시리즈']
 
 +++
 

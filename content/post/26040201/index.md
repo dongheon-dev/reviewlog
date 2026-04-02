@@ -2,8 +2,8 @@
 date = '2026-04-02T07:18:41+09:00'
 draft = false
 title = '어바웃 타임 리뷰'
-tags = ['인생영화', '멜로']
-categories = ['ott']
+tags = ['넷플릭스', '멜로']
+categories = ['영화']
 
 +++
 
