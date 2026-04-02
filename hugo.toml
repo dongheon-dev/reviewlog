@@ -4,7 +4,7 @@ title = "Re:View,Log"
 theme = "stack"
 
 [pagination]
-  pagerSize = 5
+  pagerSize = 10
 
 [params]
   mainSections = ["post"]
