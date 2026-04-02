@@ -224,10 +224,23 @@ git push
 
 ```bash
 @echo off
-
-set POST_NAME=%1
+setlocal enabledelayedexpansion
 
 cd /d C:\Users\dongheon\Desktop\reviewlog
+
+set TODAY=%DATE%
+
+set TODAY=%TODAY:~2,2%%TODAY:~5,2%%TODAY:~8,2%
+
+set COUNT=0
+for /d %%D in (content\post\%TODAY%*) do (
+    set /a COUNT+=1
+)
+
+set /a COUNT+=1
+if !COUNT! LSS 10 set COUNT=0!COUNT!
+
+set POST_NAME=%TODAY%!COUNT!
 
 hugo new post/%POST_NAME%/index.md
 
