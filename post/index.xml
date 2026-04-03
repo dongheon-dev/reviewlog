@@ -1,4 +1,422 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Re:View,Log</title><link>https://dongheon-dev.github.io/reviewlog/post/</link><description>Recent content in Posts on Re:View,Log</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><lastBuildDate>Fri, 03 Apr 2026 07:51:27 +0900</lastBuildDate><atom:link href="https://dongheon-dev.github.io/reviewlog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>집 앞 벚꽃 리뷰</title><link>https://dongheon-dev.github.io/reviewlog/post/26040302/</link><pubDate>Fri, 03 Apr 2026 07:51:27 +0900</pubDate><guid>https://dongheon-dev.github.io/reviewlog/post/26040302/</guid><description>&lt;h3 id="별점--"&gt;별점 : ★★★★☆
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Re:View,Log</title><link>https://dongheon-dev.github.io/reviewlog/post/</link><description>Recent content in Posts on Re:View,Log</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><lastBuildDate>Fri, 03 Apr 2026 11:53:23 +0900</lastBuildDate><atom:link href="https://dongheon-dev.github.io/reviewlog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>qwen3.5 리뷰</title><link>https://dongheon-dev.github.io/reviewlog/post/26040303/</link><pubDate>Fri, 03 Apr 2026 11:53:23 +0900</pubDate><guid>https://dongheon-dev.github.io/reviewlog/post/26040303/</guid><description>&lt;h3 id="별점--"&gt;별점 : ★★★☆☆
+&lt;/h3&gt;&lt;p&gt;thinking 모델이라 조금 많이 시간이 걸림.&lt;/p&gt;
+&lt;p&gt;&lt;img loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px"&gt;&lt;img alt="1" class="gallery-image" data-flex-basis="388px" data-flex-grow="162" height="959" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://dongheon-dev.github.io/reviewlog/post/26040303/1.png" srcset="https://dongheon-dev.github.io/reviewlog/post/26040303/1_hu_24abc8548ed70b45.png 800w, https://dongheon-dev.github.io/reviewlog/post/26040303/1.png 1554w" width="1554"&gt;&lt;/p&gt;
+&lt;p&gt;일단 질문을 하면 영어로 추론하는 과정을 볼 수 있는데, 결론 보려면 시간이 오래 걸림. mac mini m2 / 24gb 라서 더 느린 건가 싶기도 한데, 감안하더라도 너무 오래걸림.&lt;/p&gt;
+&lt;p&gt;그리고 중국 모델들의 단점을 하나 더 추가하자면, 가끔씩 결과가 중국어로 출력될 때가 있음&lt;/p&gt;
+&lt;p&gt;gpt-oss 모델로 다시 변경해야 할 거 같다. 아니면 mac mini 포기하고 데탑으로 local llm 좀 좋은걸 돌려볼까?&lt;/p&gt;
+&lt;p&gt;10분동안 지 혼자 주저리주저리 하더니 결과도 안주네&amp;hellip;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;qwen3.5:latest
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;오늘 오전 11:54
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;10분 동안 생각함
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Here&lt;span style="color:#e6db74"&gt;&amp;#39;s a thinking process that leads to the suggested answer:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Analyze the Request:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Topic: T-strings (Type-Safe strings) in Python.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Version: Python 3.14.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Action: Explain in detail.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Implicit Constraint: I need to verify if Python 3.14 actually exists and if T-strings are a feature of it.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Fact-Check (Crucial Step):
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Current Status of Python: As of my current knowledge cutoff (early 2024), the latest stable version is Python 3.13.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Python 3.14 Status: Python 3.14 is not released yet. It&amp;#39;&lt;/span&gt;s a future version &lt;span style="color:#f92672"&gt;(&lt;/span&gt;currently in development/expected late &lt;span style="color:#ae81ff"&gt;2024&lt;/span&gt; or 2025&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Feature Verification: Did Python 3.14 introduce &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt;?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Search query mental check: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 t-strings&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Result: There is no official feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt; introduced in Python 3.14.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Is there a similar concept? PEP &lt;span style="color:#ae81ff"&gt;732&lt;/span&gt; or 741?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; There have been discussions about Typed Strings &lt;span style="color:#f92672"&gt;(&lt;/span&gt;e.g., str: T typing hints or specific syntax like &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt; or PEP &lt;span style="color:#ae81ff"&gt;731&lt;/span&gt; regarding str literals, but nothing called &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; specifically as a new syntax feature in 3.14 yet.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, there is a known feature called f-strings &lt;span style="color:#f92672"&gt;(&lt;/span&gt;formatted string literals&lt;span style="color:#f92672"&gt;)&lt;/span&gt;. Maybe the user is confusing &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt; with something &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt;?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; There is a proposal/feature often referred to as &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt; in community discussions &lt;span style="color:#f92672"&gt;(&lt;/span&gt;e.g., &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt; vs &lt;span style="color:#e6db74"&gt;&amp;#34;f&amp;#34;&lt;/span&gt;, t&lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;? No, that&lt;span style="color:#e6db74"&gt;&amp;#39;s not standard.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Correction: There is a very recent proposal or feature regarding t&amp;#34;string&amp;#34; (Template Strings or something similar?) No.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Hypothesis: The user might be referring to PEP 727 (Typed Context Manager), PEP 742 (Struct pattern matching), or maybe a confusion with @no_type_check?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Hypothesis 2 (Most Likely): The user is likely confusing this with a feature called &amp;#34;t-strings&amp;#34; which recently gained traction in Python 3.13/3.14 roadmap or it&amp;#39;&lt;/span&gt;s a rumor/misinformation.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, check PEP 740/741/742...: There is a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt;string &lt;span style="color:#f92672"&gt;(&lt;/span&gt;typed literal strings&lt;span style="color:#f92672"&gt;)&lt;/span&gt;? No.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Actually, check recent news: There is a discussion about &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; literals in Python &lt;span style="color:#f92672"&gt;(&lt;/span&gt;PEP 741? No&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, look deeper: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; introduced in Python 3.14 &lt;span style="color:#f92672"&gt;(&lt;/span&gt;which is actually Python 3.13.4+ or similar&lt;span style="color:#f92672"&gt;)&lt;/span&gt; that allows T&lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;? No.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, check the specific term &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt;: There is a specific feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt; introduced recently to handle interpolation types or type-safe literals?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Correction: There is no such feature as &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt; in Python 3.14 as of my current knowledge base. Python 3.14 isn&lt;span style="color:#e6db74"&gt;&amp;#39;t out.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, check PEP 740 (Static Type Checking with @typing_extensions): No.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Check PEP 730 (Type Hint for __class__): No.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Check PEP 719 (Typed Literal): No.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Is it possible the user is referring to @ syntax in type hints?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Is it possible the user is referring to # type: ignore?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Is it possible the user is referring to &amp;#34;T&amp;#34; as in Template String?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, let&amp;#39;&lt;/span&gt;s search my internal knowledge &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Python t-string&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; There is a feature request regarding &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; strings &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; type-checking string literals &lt;span style="color:#f92672"&gt;(&lt;/span&gt;e.g., T&lt;span style="color:#e6db74"&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;. This was proposed recently &lt;span style="color:#f92672"&gt;(&lt;/span&gt;PEP 732? No, PEP &lt;span style="color:#ae81ff"&gt;730&lt;/span&gt; was something &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Crucial Correction: Python 3.14 does not exist yet. The current latest version is 3.13.2 &lt;span style="color:#f92672"&gt;(&lt;/span&gt;early 2024&lt;span style="color:#f92672"&gt;)&lt;/span&gt;. Python 3.14 is expected around Oct/Nov 2024.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Crucial Feature: There is no official &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; feature in Python 3.13 or 3.14 roadmap yet based on official PEPs released up to my cutoff.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, maybe they mean the t prefix &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; Type-Literal Strings? There is a proposal &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; t&lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt; to mark strings as literals without interpolation, potentially &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; type checkers. But this is experimental/early stage.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, maybe they mean the new | operator &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; types?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, is there a confusion with &lt;span style="color:#e6db74"&gt;&amp;#34;f-string&amp;#34;&lt;/span&gt; vs &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt;?*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, check &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; there is a typo &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;f-string&amp;#34;&lt;/span&gt;?* No, the user asks about &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, check &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; there is a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; literal &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; threading? No.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, check &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; there is a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; type narrowing?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Re-evaluating based on &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Since Python 3.14 is not released, any claim of a specific feature in 3.14 is speculative or the user is referring to a leak/rumor.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; However, there is a specific recent rumor/feature: PEP &lt;span style="color:#ae81ff"&gt;741&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Typed Context Manager&lt;span style="color:#f92672"&gt;)&lt;/span&gt;... No.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Actually, there is a feature in the Python 3.13/3.14 roadmap discussion regarding &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; prefixes to denote type-safe string literals &lt;span style="color:#f92672"&gt;(&lt;/span&gt;similar to T in TypeScript&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;Type-Safe String Literals&amp;#34;&lt;/span&gt; proposed recently?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Yes, there is a PEP &lt;span style="color:#f92672"&gt;(&lt;/span&gt;likely PEP &lt;span style="color:#ae81ff"&gt;732&lt;/span&gt; or similar new PEP&lt;span style="color:#f92672"&gt;)&lt;/span&gt; about &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; syntax? No, PEP &lt;span style="color:#ae81ff"&gt;732&lt;/span&gt; was @typing.no_type_check.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Let&lt;span style="color:#e6db74"&gt;&amp;#39;s assume the user might be mistaken about the version or feature name.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I found a reference: There is a proposal called # type: comments or T literal.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, is there a specific feature called &amp;#34;t-string&amp;#34;?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Search query mental simulation: &amp;#34;Python t-string feature&amp;#34;.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Result: Most results point to t in @typing.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, could it be f&amp;#34; vs r&amp;#34; vs b&amp;#34; vs u&amp;#34;?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, there is a concept called &amp;#34;t-strings&amp;#34; in other languages (Ruby, Rust).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, could it be a confusion with &amp;#34;Template Strings&amp;#34; (JS)?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I need to be honest. As an AI, I must state facts.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Fact: Python 3.14 is not released.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Fact: There is no official &amp;#34;t-string&amp;#34; feature in Python 3.14 confirmed by official PEPs as of early 2024.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Possibility: The user might be referring to PEP 742 (Struct Pattern Matching) or PEP 728 (Union Syntax).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Possibility: The user might be referring to a Leaked Feature or Internal CPython Development.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Possibility: The user is confusing &amp;#34;t-string&amp;#34; with &amp;#34;T&amp;#34; literals in a specific Type Checker (like Pyright/Mypy).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, there is a specific PEP:* PEP 741 (Typed Context Manager)...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, there is a recent PEP: PEP 730 (Add typing.NoReturn)...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, there is a very recent PEP: PEP 749 (Type-Safe String Literals? No).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Actually, I need to check if there is a &amp;#34;t&amp;#34; string syntax introduced recently to prevent implicit concatenation or type checking.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I recall a feature: &amp;#34;t&amp;#34;string for typing module.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, let&amp;#39;&lt;/span&gt;s look at &lt;span style="color:#e6db74"&gt;&amp;#34;T&amp;#34;&lt;/span&gt; strings in Python 3.14.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, is it possible the user means PEP &lt;span style="color:#ae81ff"&gt;735&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Typed Context Manager&lt;span style="color:#f92672"&gt;)&lt;/span&gt;?*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, is it possible the user is asking about the &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; prefix &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; Thread-local?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, let&lt;span style="color:#e6db74"&gt;&amp;#39;s assume the user is asking about a recently announced feature in the Python 3.14 release candidate.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I found a reference: There is a feature called T literals or t literals being discussed for string interpolation types.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, actually, looking at recent Python 3.14 beta announcements:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; There is no feature called &amp;#34;t-string&amp;#34; in Python 3.14.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, did the user mean f-string but typed t-string?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, did the user mean T for Type in Type Hints?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, could it be u-string (Unicode)?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, could it be a confusion with T (Tuple) in Type Hints?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, is there a feature called &amp;#34;Type-Safe String Literals&amp;#34; in the roadmap?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; There is a proposal for T&amp;#34;hello&amp;#34; to mean typing.Literal[&amp;#34;hello&amp;#34;].
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; This is often discussed but not officially in 3.14.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Correction: I must inform the user that Python 3.14 is not out yet, and there is no confirmed &amp;#34;t-string&amp;#34; feature officially.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, is there a chance the user is referring to PEP 743 (Type-safe strings)?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, there is a recent rumor: &amp;#34;t-string&amp;#34; syntax t&amp;#34;...&amp;#34; to allow type-checkers to understand string literals better.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I found the likely source: PEP 734 (Type-safe String Literals)? No.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, there is a feature called &amp;#34;t&amp;#34; string in Python 3.14 related to f-strings improvements?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I must check: Is this a trick question or misinformation?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Search query: &amp;#34;Python 3.14 t-string&amp;#34;.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Result: There is a feature called T in the typing module?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, there is a feature called &amp;#34;t-strings&amp;#34; in Python 3.13+ to support type checking.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, actually, the most likely scenario: The user is confusing this with TypeScript or Go, OR they are referring to a very recent PEP (like PEP 75x) that I might not know fully, OR they are referring to a feature request.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I need to check the most recent Python news.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Recent news: Python 3.13 is the latest stable. Python 3.14 is coming.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Feature: PEP 727 (Type alias), PEP 730 (NoReturn).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Feature: # type: ignore improvements.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Feature: @ syntax for decorators.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Feature: | syntax for unions.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Feature: Typed await.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Feature: str concatenation improvements.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, is it possible the user is asking about &amp;#34;t&amp;#34; for typing.Literal?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I recall a specific feature: T literals in PEP 731?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I found a specific term: t-string (Template String).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, in Rust, there are t! macros.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, maybe the user is asking about T (Tuple) in typing.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I need to address the misconception politely.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, hold on. There is a very recent development.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Search: &amp;#34;Python 3.14 t-string feature&amp;#34;.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Result: There is no official &amp;#34;t-string&amp;#34;.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, there is a concept called &amp;#34;Type-String&amp;#34;.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, maybe the user means f-string with t prefix?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, there is a feature called &amp;#34;t&amp;#34; (template string) in Python 3.14 to allow {} interpolation without f?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; No, that doesn&amp;#39;&lt;/span&gt;t exist.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found the source of confusion.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; There is a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; in Python 3.14 proposed in PEP 742?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, actually, there is a t literal type hint syntax proposed.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, the most accurate answer: &lt;span style="color:#e6db74"&gt;&amp;#34;As of now, Python 3.14 has not been released, and there is no officially confirmed feature called &amp;#39;t-string&amp;#39; in the Python 3.14 release notes or PEPs.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; However, there might be a confusion with T &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Type&lt;span style="color:#f92672"&gt;)&lt;/span&gt; in Type Hints.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; to indicate raw string with types?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a recent PEP: PEP &lt;span style="color:#ae81ff"&gt;738&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Type Checking &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; str&lt;span style="color:#f92672"&gt;)&lt;/span&gt;?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I will construct the answer based on:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Clarify Python version status &lt;span style="color:#f92672"&gt;(&lt;/span&gt;3.14 is unreleased/developing&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Clarify that &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; is not a standard official feature name.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Explain what &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt; might refer to &lt;span style="color:#f92672"&gt;(&lt;/span&gt;likely a misunderstanding of t in typing, or a confusion with f-string / r-string, or a leaked PEP about T literals&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Mention similar features &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Typed Literals, |, &lt;span style="color:#f92672"&gt;=)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Mention potential confusion &lt;span style="color:#f92672"&gt;(&lt;/span&gt;TypeScript template literal types&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, let me double check one more thing.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Is there a T in typing &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; Literal?*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, there is a proposal &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; t&lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Typed String Literals&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Source: PEP 740? No.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Source: PEP 730? No.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, there is a recent blog post or rumor: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 T-strings&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I think I found it: PEP &lt;span style="color:#ae81ff"&gt;746&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Typed Literal Strings&lt;span style="color:#f92672"&gt;)&lt;/span&gt;? No.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I will assume it is likely misinformation or confusion.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, actually, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;t-strings&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Template Strings&lt;span style="color:#f92672"&gt;)&lt;/span&gt; is often a JavaScript/TypeScript term.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, there is a feature in Python 3.13 called &lt;span style="color:#e6db74"&gt;&amp;#34;T&amp;#34;&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; typing?*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll structure the answer to correct the premise while being helpful.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, one more possibility: The user might be referring to T as in typing.TypeVar?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, maybe they mean # type: ignore with T?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, let&amp;#39;&lt;/span&gt;s look at PEP &lt;span style="color:#ae81ff"&gt;742&lt;/span&gt; again.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, actually, there is a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; in Python 3.14 that allows &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt;literal &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; type checkers.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check the Python 3.14 Release Plan.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I can&lt;span style="color:#e6db74"&gt;&amp;#39;t find any official documentation about &amp;#34;t-string&amp;#34; in Python 3.14.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Conclusion: It is likely a hallucination or a very niche experimental feature not yet public.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, could it be &amp;#34;t&amp;#34; for &amp;#34;time&amp;#34;?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, could it be &amp;#34;t&amp;#34; string for threading?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will tell the truth: Python 3.14 is not out yet.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, but maybe the user is referring to PEP 734 which talks about T literals.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Actually, there is a feature called T in typing module for TypeVar.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll draft the response.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to be careful. If I say &lt;span style="color:#e6db74"&gt;&amp;#34;It doesn&amp;#39;t exist&amp;#34;&lt;/span&gt;, and it does &lt;span style="color:#f92672"&gt;(&lt;/span&gt;as a very new leak&lt;span style="color:#f92672"&gt;)&lt;/span&gt;, I look wrong.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Better: &lt;span style="color:#e6db74"&gt;&amp;#34;As of the current stable release and development plans, there is no confirmed &amp;#39;t-string&amp;#39;.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, is there a T syntax &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; typing.Literal?*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I recall a specific proposal: t&lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; type checkers.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a source: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 will introduce t-string syntax&amp;#34;&lt;/span&gt;. Is this true?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, checking PEP &lt;span style="color:#ae81ff"&gt;732&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Static typing &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; strings&lt;span style="color:#f92672"&gt;)&lt;/span&gt;?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, actually, I think I might be confusing this with t &lt;span style="color:#f92672"&gt;(&lt;/span&gt;tuple&lt;span style="color:#f92672"&gt;)&lt;/span&gt; in typing.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, let&lt;span style="color:#e6db74"&gt;&amp;#39;s check PEP 742 again.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, there is a feature called T in Python 3.14 for typing.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I will say: &amp;#34;As of the current information, there is no official feature called &amp;#39;&lt;/span&gt;t-string&lt;span style="color:#e6db74"&gt;&amp;#39;.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; But I should mention typing.Literal and T in typing.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, could it be t for typing.Union?*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I think the best approach is:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Python 3.14 status.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Clarify the likely confusion (f-string, r-string, T in typing).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Explain similar features.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Mention potential upcoming features but clarify status.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I found a specific reference: &amp;#34;t-string&amp;#34; is a term sometimes used in PEP 727?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, actually, I found a reference to T in PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, I think the user is referring to T for TypeVar.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll stick to the &lt;span style="color:#e6db74"&gt;&amp;#34;no official feature&amp;#34;&lt;/span&gt; answer but be polite.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; there is a t literal in PEP 731.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: PEP &lt;span style="color:#ae81ff"&gt;732&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;String concatenation&lt;span style="color:#f92672"&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I think I found it: There is a feature called t-string in Python 3.14 that allows t&lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt; to mean typing.Literal.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I must check &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; this is real.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14: t-string feature leaked&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, actually, I think this is a rumor.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I will answer cautiously.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, one more thing: T &lt;span style="color:#f92672"&gt;(&lt;/span&gt;Tuple&lt;span style="color:#f92672"&gt;)&lt;/span&gt; in typing.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; typing?*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I will answer that it&lt;span style="color:#e6db74"&gt;&amp;#39;s likely a confusion.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; *Wait, I will also mention f-string and r-string.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will mention PEP 604 (| syntax).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will mention PEP 702 (Optional annotation syntax).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will mention PEP 703 (String concatenation).
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll structure the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 related to typing?*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;t-string&amp;#34;&lt;/span&gt; is a term used in TypeScript.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll say it&amp;#39;&lt;/span&gt;s likely a confusion.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, I will also mention typing.Literal.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I will also mention PEP 727.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll draft the response.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I need to make sure I don&amp;#39;&lt;/span&gt;t hallucinate.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; I will say: &lt;span style="color:#e6db74"&gt;&amp;#34;There is no confirmed &amp;#39;t-string&amp;#39; feature in Python 3.14 yet.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; *Wait, I will also mention typing.Literal.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I just thought: Maybe the user is asking about T for typing.TypeVar.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will mention that.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; f-strings.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 f-string improvements&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll mention that.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 734.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to be sure.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; I will say: &lt;span style="color:#e6db74"&gt;&amp;#34;There is no official &amp;#39;t-string&amp;#39; feature.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I will also mention PEP 727.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; typing.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 T literals&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll say: &amp;#34;There is no official feature.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; f-strings.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 t-strings&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll say: &amp;#34;There is no official feature.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; typing.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 T literals&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll say: &amp;#34;There is no official feature.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; f-strings.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 t-strings&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll say: &amp;#34;There is no official feature.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; typing.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 T literals&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll say: &amp;#34;There is no official feature.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in Python 3.14 &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; f-strings.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I found a reference: &lt;span style="color:#e6db74"&gt;&amp;#34;Python 3.14 t-strings&amp;#34;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Okay, I&lt;span style="color:#e6db74"&gt;&amp;#39;ll say: &amp;#34;There is no official feature.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Wait, I will also mention PEP 730.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Okay, I&amp;#39;&lt;/span&gt;ll write the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Wait, I need to check one more thing: Is there a feature called &lt;span style="color:#e6db74"&gt;&amp;#34;t&amp;#34;&lt;/span&gt; in **Python 3.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>집 앞 벚꽃 리뷰</title><link>https://dongheon-dev.github.io/reviewlog/post/26040302/</link><pubDate>Fri, 03 Apr 2026 07:51:27 +0900</pubDate><guid>https://dongheon-dev.github.io/reviewlog/post/26040302/</guid><description>&lt;h3 id="별점--"&gt;별점 : ★★★★☆
 &lt;/h3&gt;&lt;p&gt;&lt;img class="gallery-image" data-flex-basis="320px" data-flex-grow="133" height="6048" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://dongheon-dev.github.io/reviewlog/post/26040302/1.jpg" srcset="https://dongheon-dev.github.io/reviewlog/post/26040302/1_hu_963765676a8b1437.jpg 800w, https://dongheon-dev.github.io/reviewlog/post/26040302/1_hu_fbfb200f012a34b4.jpg 1600w, https://dongheon-dev.github.io/reviewlog/post/26040302/1_hu_f6f81df9d80f974d.jpg 2400w, https://dongheon-dev.github.io/reviewlog/post/26040302/1.jpg 8064w" width="8064"&gt;&lt;/p&gt;
 &lt;p&gt;아침에 운동 다녀올 때 보니 벚꽃이 활짝 펴 있었다. 보정하고 컴터로 옮길 걸 그랬나?&lt;/p&gt;
 &lt;p&gt;엄청 이뻤는데 사진이 다 표현하지 못하는 것 같다.&lt;/p&gt;
