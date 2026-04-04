@@ -3,7 +3,7 @@ date = '2026-04-04T08:23:45+09:00'
 draft = false
 title = '반 헬싱 리뷰'
 tags = ['넷플릭스', '판타지', '뱀파이어', '좀비']
-categories = ['스토리']
+categories = ['시리즈']
 
 +++
 
