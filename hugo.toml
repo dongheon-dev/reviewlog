@@ -3,6 +3,8 @@ languageCode = "ko-kr"
 title = "Re:View,Log"
 theme = "stack"
 
+timeout = "300s"
+
 [pagination]
   pagerSize = 10
 
