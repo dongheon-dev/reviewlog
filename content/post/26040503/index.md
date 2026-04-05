@@ -1,5 +1,6 @@
 +++
-date = '2026-04-05T17:08:31+09:00'draft = false
+date = '2026-04-05T17:08:31+09:00'
+draft = false
 title = '남사 화훼단지 리뷰 - 2'
 tags = ['가족', '꽃']
 categories = ['인생']
@@ -16,7 +17,7 @@ categories = ['인생']
 
 두 번째로 들렸던 곳
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26040503\0.jpg)
+![](./0.jpg)
 
 
 
