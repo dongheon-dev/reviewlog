@@ -3,7 +3,7 @@ date = '2026-04-08T17:59:39+09:00'
 draft = false
 title = '팔로우드 리뷰'
 tags = ['넷플릭스', '호러', '고어']
-categories = ['카테고리']
+categories = ['영화']
 
 +++
 
