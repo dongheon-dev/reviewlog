@@ -1,0 +1,51 @@
++++
+date = '2026-04-11T07:30:00+09:00'
+draft = false
+title = '이상한 집 리뷰'
+tags = ['넷플릭스', '스릴러']
+categories = ['영화']
+
++++
+
+### 별점 : ★☆
+
+
+
+[넷플릭스 링크](https://www.netflix.com/kr/title/82678364)
+
+
+
+원래는 일본 커뮤에 올린 글과 유튜브를 시작으로, 소설도 만들어지고 영화화 된 것으로 알고있다.
+
+아래는 인터넷에서 구한 해당 내용 이미지. 영화를 볼 생각이 있다면, 영화부터 보고 아래 내용을 보는 것을 추천!
+
+
+
+
+
+### 1. 이상한 집
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집1.jpg)
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집2.gif)
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집3.gif)
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집4.png)
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집5.gif)
+
+![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집6.jpg)
+
+
+
+---
+
+
+
+### 2. 완전판 (후속 이야기)
+
+[완전판 번역 블로그](https://blog.naver.com/zagaek123/224049869553)
+
+사실, 예전에 이 내용을 본 적이 있다. 완전판으로. 신기해서 여기저기 찾아봤던 것으로 기억했고, 다시 찾아보니 내가 어디서 찾았는지 기억이 안나더라...ㅋㅋㅋ 그래도 어떤 분이 번역해서 완전판으로 블로깅 한 게 있길래 링크남겨놓는다. 궁금하면 ㄱㄱ
+
