@@ -25,17 +25,17 @@ categories = ['영화']
 
 ### 1. 이상한 집
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집1.jpg)
+![](./집1.jpg)
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집2.gif)
+![](./집2.gif)
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집3.gif)
+![](./집3.gif)
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집4.png)
+![](./집4.png)
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집5.gif)
+![](./집5.gif)
 
-![](C:\Users\dongheon\Desktop\reviewlog\content\post\26041102\집6.jpg)
+![](./집6.jpg)
 
 
 
@@ -49,3 +49,4 @@ categories = ['영화']
 
 사실, 예전에 이 내용을 본 적이 있다. 완전판으로. 신기해서 여기저기 찾아봤던 것으로 기억했고, 다시 찾아보니 내가 어디서 찾았는지 기억이 안나더라...ㅋㅋㅋ 그래도 어떤 분이 번역해서 완전판으로 블로깅 한 게 있길래 링크남겨놓는다. 궁금하면 ㄱㄱ
 
+[...](./이상한 집)
